@@ -1,0 +1,44 @@
+body {
+    background: url(https://www.brighterspacesuk.com/wp-content/uploads/DSC_5376_HDR-Edit-1-1440x800.jpg);
+}
+.jumbotron{
+    background-color: cadetblue; 
+    
+}
+.jumbotron h1{
+    color: #fffdd0 ; 
+    font-family: 'Satisfy', cursive; 
+    font-size: 50px ; 
+    margin-right: 25% ; 
+}
+.jumbotron img { 
+    height:100px ; 
+    width: 120px ; 
+    margin-right: 10px ; 
+    
+    
+}
+
+
+h2 legend {
+    font-size: 22px ; 
+    color: white; 
+    font-family: serif ; 
+    padding: 5px ; 
+     
+}
+label[for="emotion-input"]  {
+    color:  #fffdd0; 
+    font-size: 20px ; 
+    font-family: serif ; 
+    
+
+}
+.emotion{
+    background-color: white ;  
+    color: #ffcd74;  
+    font-weight: bold;
+    font-size: 20px ; 
+    opacity: 0.8;
+    width: 12%; 
+}
