@@ -1,20 +1,25 @@
 body {
-    background: url(https://www.brighterspacesuk.com/wp-content/uploads/DSC_5376_HDR-Edit-1-1440x800.jpg);
-}
-.jumbotron{
-    background-color: cadetblue; 
+    background: url("https://www.brighterspacesuk.com/wp-content/uploads/DSC_5376_HDR-Edit-1-1440x800.jpg") no-repeat; 
     
 }
-.jumbotron h1{
+.navbar{
+    background-color: cadetblue; 
+    
+    
+}
+.navbar h1{
     color: #fffdd0 ; 
     font-family: 'Satisfy', cursive; 
-    font-size: 50px ; 
+    font-size: 60px ; 
     margin-right: 25% ; 
+    text-decoration: underline; 
+    text-align: center ; 
+    margin-top: 20px ; 
 }
-.jumbotron img { 
+.navbar img { 
     height:100px ; 
     width: 120px ; 
-    margin-right: 10px ; 
+    padding: 5px; 
     
     
 }
@@ -42,3 +47,32 @@ label[for="emotion-input"]  {
     opacity: 0.8;
     width: 12%; 
 }
+.btn-primary{
+    background-color: white ;  
+    color: #ffcd74;  
+    font-weight: bold;
+    font-size: 20px ; 
+    opacity: 0.8;
+}
+img{
+    float: left ; 
+    padding: 10px ; 
+    
+} 
+p {
+    float: left ;
+    padding: 10px ; 
+    font-family: serif; 
+    color: white ; 
+    font-size: 16px ; 
+    background-color: #ffcd74 ; 
+
+} 
+/* .gifdiv  p {
+    float: left ;
+    padding: 10px ; 
+    font-family: serif; 
+    color: white ; 
+    font-size: 16px ; 
+
+} */
