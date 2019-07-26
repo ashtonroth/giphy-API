@@ -40,7 +40,7 @@ $( document ).ready(function() {
     // Function that displays all of the gifs
     function displayGifs(){
         var newEmotion = $(this).attr("data-name");
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + newEmotion + "&api_key=dc6zaTOxFJmzC&limit=10";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + newEmotion + "&api_key=dc6zaTOxFJmzC&limit=10";
         console.log(queryURL); // 
         $.ajax({
             url: queryURL,
